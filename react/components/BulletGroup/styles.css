@@ -1,6 +1,12 @@
+.bullet__container{
+    display: flex;
+    overflow: auto;
+}
+
 .bullet__item,
 .bullet__item--image{
     width: 80px;
+    min-width: 80px;
    }
 .bullet__item{
  margin-right: 15px;
@@ -18,5 +24,6 @@
     .bullet__item,
     .bullet__item--image{
        width: 100px;
+       min-width: 100px;
     }
 }
